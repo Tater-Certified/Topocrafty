@@ -1,9 +1,9 @@
-#Topocrafty
+# Topocrafty
 A Terrain Generation Module for Wanderlust
 
-##Authors
+## Authors
 QPCrummer\
 jneos
 
-##License
+## License
 This software is licensed under the GPLv3.
