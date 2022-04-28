@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "topocrafty",
   "version": "${version}",
-
   "name": "Topocrafty",
   "description": "A Terrain Generation Module for Wanderlust",
   "authors": [
@@ -13,18 +12,18 @@
     "homepage": "https://github.com/CrumCreators",
     "sources": "https://github.com/CrumCreators/Topocrafty"
   },
-
   "license": "GPLv3",
   "icon": "assets/topocrafty/icon.png",
-
   "environment": "*",
   "entrypoints": {
+    "main": [
+      "io.github.crumcreators.topocrafty.Topocrafty"
+    ],
     "terrablender": [
       "io.github.crumcreators.topocrafty.Topocrafty"
     ]
   },
   "mixins": [],
-
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
@@ -33,5 +32,6 @@
     "terrablender": "*"
   },
   "suggests": {
-  }
+  },
+  "accessWidener" : "topocrafty.accesswidener"
 }
